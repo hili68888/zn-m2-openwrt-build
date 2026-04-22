@@ -10,7 +10,7 @@
 # See /LICENSE for more information.
 #
 
-name: ax18 build
+name: zn-m2 build
 
 on:
   repository_dispatch:

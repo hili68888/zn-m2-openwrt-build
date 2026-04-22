@@ -1,3 +1,4 @@
+src-git helloworld https://github.com/fw876/helloworld
 src-git openclash https://github.com/vernesong/OpenClash
 src-git packages https://github.com/openwrt-fork/sdf8057-packages.git;2023
 src-git luci https://github.com/openwrt-fork/sdf8057-luci.git;2023

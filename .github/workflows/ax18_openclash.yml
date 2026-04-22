@@ -159,9 +159,9 @@ jobs:
       run: |
         echo "release_tag=v$(date +"%Y.%m.%d.%H%M")-OC" >> $GITHUB_OUTPUT
         touch release.txt
-        echo "ZN-M2 OpenClash 适配版" >> release.txt
+        echo "CMIOT-AX18 OpenClash 适配版" >> release.txt
         # 尝试抓取 OpenClash 版本号作为标题
-        OC_VERSION=$(grep luci-app-openclash ${{ env.FIRMWARE }}/openwrt-ipq60xx-generic-device-zn-m2.manifest | awk -F" - " '{print $2}')
+        OC_VERSION=$(grep luci-app-openclash ${{ env.FIRMWARE }}/openwrt-ipq60xx-generic-device-cmiot-ax18.manifest | awk -F" - " '{print $2}')
         echo "OpenClash 版本: \`$OC_VERSION\`" >> release.txt
         echo "release_name=OpenClash-$OC_VERSION" >> $GITHUB_OUTPUT
         echo "status=success" >> $GITHUB_OUTPUT

@@ -10,7 +10,7 @@
 # See /LICENSE for more information.
 #
 
-name: ax18 build
+name: ax18_openclash build
 
 on:
   repository_dispatch:

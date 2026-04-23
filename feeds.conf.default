@@ -1,5 +1,5 @@
-src-git passwall_packages https://github.com/Openwrt-Passwall/openwrt-passwall-packages.git;main
-src-git passwall_luci https://github.com/Openwrt-Passwall/openwrt-passwall.git;main
+# src-git passwall_packages https://github.com/Openwrt-Passwall/openwrt-passwall-packages.git;main
+# src-git passwall_luci https://github.com/Openwrt-Passwall/openwrt-passwall.git;main
 src-git openclash https://github.com/vernesong/OpenClash
 src-git packages https://github.com/openwrt-fork/sdf8057-packages.git;2023
 src-git luci https://github.com/openwrt-fork/sdf8057-luci.git;2023
